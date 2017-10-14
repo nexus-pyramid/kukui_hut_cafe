@@ -1,0 +1,12 @@
+{
+  "name": "smoke_shack",
+  "version": "1.0",
+  "license": "",
+  "main": "",
+  "ignore": [],
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-route": "~1.6.3",
+    "jquery": "^3.2.1"
+  }
+}

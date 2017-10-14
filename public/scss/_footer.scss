@@ -1,0 +1,57 @@
+footer {
+ // font-family: 'Open Sans Condensed', sans-serif;
+ 	 font-family: 'Saira Semi Condensed', sans-serif;
+
+  width:100%; 
+  background-color: #D49C6A;
+  color: white;
+  top: 0;
+  height: 202px;
+  // margin-top: 100px;
+  // height: 150px;
+  // padding-left: 40px;
+  // padding-top: 40px;
+}
+.footer_line {
+	stroke: white;
+	stroke-width: 5px;
+	// float: left;
+}
+.copyright {
+	background-color: #FFD3AA;;
+}
+.contact_info {
+ padding-top: 20px;
+ margin-left: 40px;
+  // float: left;
+ overflow: auto;
+  display: inline-block;
+  width: 300px;
+  h4 {
+  	margin: 0px;
+  }
+}
+.contact_line {
+	stroke: rgb(0,0,0);
+	stroke-width: 10px;
+	 // float: left;
+}
+// svg {
+// 	float: left;
+// }
+.main_line {
+	stroke: white;
+	stroke-width: 10px;
+	display:block;
+
+}
+.line-container {
+	float: left;
+	margin-top: 0px;
+}
+.food-container {
+	h1 {
+		 	 font-family: 'Saira Semi Condensed', sans-serif;
+	}
+
+}

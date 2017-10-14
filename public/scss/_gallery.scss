@@ -1,0 +1,24 @@
+.gallery__banner {
+  font-size: 30px;
+  // font-family: 'Archivo', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  display: table;
+  color: white;
+  letter-spacing: 5px;
+  h1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+  width: 100%;
+	height: 400px;
+	text-align: center;
+  vertical-align: middle;
+	background-attachment: fixed;
+	/* center it */
+	background-position: center center;
+	/* Scale it nicely to the element */
+	background-size: cover;
+	background-image: url("/pics/bay.jpg");
+
+}

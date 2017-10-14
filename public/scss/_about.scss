@@ -1,0 +1,102 @@
+.about_banner {
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  display: table;
+  color: white;
+  letter-spacing: 5px;
+  h1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+  width: 100%;
+	height: 400px;
+	text-align: center;
+  vertical-align: middle;
+	background-attachment: fixed;
+	/* center it */
+	background-position: center center;
+	/* Scale it nicely to the element */
+	background-size: cover;
+	background-image: url("/pics/burger.jpg");
+}
+.image-third1 {
+  float: left;
+  min-height: 100%;
+  width: 24%;
+  // min-height: 172px;
+  background-position: center center;
+  /* Scale it nicely to the element */
+  background-size: cover;
+  background-image: url("/pics/hotdog.jpg");
+}
+.image-third2 {
+  float: left;
+  min-height: 100%;
+  width: 36%;
+  // min-height: 172px;
+  background-position: center center;
+  /* Scale it nicely to the element */
+  background-size: cover;
+  background-image: url("/pics/smoothie.jpg");
+}
+.content-third {
+// display: none;
+ color: white;
+ background-color: #D49C6A;
+ width: 33%;
+ height: 100%;
+ float: left;
+ font-family: 'Saira Semi Condensed', sans-serif;
+ h3 {
+ 	font-size: 30px;
+ }
+ text-align: left;
+ padding-left: 10px;
+ // align-content: center;
+
+}
+.container {
+	width: 100%;
+	// background-color: #f0eff4;
+}
+.container-textOverflow {
+	 font-family: 'Saira Semi Condensed', sans-serif;
+ h3 {
+ 	font-size: 30px;
+ }
+	background-color: #D49C6A;
+	color: white;
+	bottom: auto;
+    right: auto;
+    top: 0;
+    left: 30%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding-top: 0px;
+    padding-left:20px;
+    position: relative;
+    // margin-top: 40px;
+    max-width: 960px;
+    width: 55%;
+    z-index: 1;
+    height: 350px;
+    border-style: solid;
+    border-left-width: 20px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-color: #FFD3AA;
+}
+.container-overLay {
+	margin-top: -15%;
+    z-index: -1;
+    width: 100%;
+    position: relative;
+	img {
+	border-style: none;
+    width: 100%;
+    vertical-align: middle;
+    height: 600px;
+	}
+}

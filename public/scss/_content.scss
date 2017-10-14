@@ -1,0 +1,28 @@
+.halfmainimage {
+  float: left;
+    min-height: 100%;
+  width: 50.9%;
+  // min-height: 172px;
+  background-position: center center;
+  /* Scale it nicely to the element */
+  background-size: cover;
+  background-image: url("/pics/food.jpg"); 
+}
+.halfmain {
+// display: none;
+ color: white;
+ width: 49%;
+ height: 100%;
+ float: left;
+ font-family: 'Saira Semi Condensed', sans-serif;
+ h3 {
+ 	font-size: 30px;
+ }
+ text-align: center;
+ align-content: center;
+}
+.footer_line {
+	stroke: white;
+	stroke-width: 5px;
+	// float: left;
+}

@@ -1,0 +1,19 @@
+.contact_container {
+  font-family: 'Open Sans Condensed', sans-serif;
+ padding-top: 20px;
+ margin-left: 40px;
+  // float: left;
+ overflow: auto;
+  display: inline-block;
+  width: 300px;
+  h3 {
+  	margin-top: 0px;
+  }
+   svg {
+   	float: left;
+   }
+}
+
+.contact_header {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
