@@ -11,7 +11,6 @@ var menuItemSchema = new Schema({
     image: {
 		type: String,
 		default:''
-	},
-    reviews: [{type: Schema.Types.ObjectId, ref: 'Review'}]
+	}
 });
-mongoose.model('Brand', BrandSchema);
+mongoose.model('menuItem', menuItemSchema);
