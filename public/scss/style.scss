@@ -60,6 +60,21 @@ html, body {
 	background-size: cover;
 	background-image: url("/pics/ocean.gif");
 }
+.sheet__contact {
+  color: white;
+  height: auto;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("/pics/mountain.jpg");
+  padding-top: 40px;
+  font-family: 'Archivo', sans-serif;
+   h1 {
+    letter-spacing: 5px;
+   }
+    
+}
 // .sheet__meal {
 //   clear: both;
 //   float: left;
